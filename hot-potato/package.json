@@ -1,0 +1,10 @@
+{
+  "name": "hot-potato-multiplayer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Real-time multiplayer Hot Potato browser game",
+  "main": "server.js",
+  "scripts": {"start":"node server.js"},
+  "engines": {"node": ">=18"},
+  "dependencies": {"express":"^4.21.2","socket.io":"^4.8.1"}
+}
